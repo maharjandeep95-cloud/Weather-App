@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="A fast and simple weather app for real-time updates across any city." />
+
+  <title>My Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="container">
+    <header>
+      <input placeholder="Search for a city..." id="searchbar" />
+      <button id="searchbtn">🔍</button>
+    </header>
+
+    <main>
+      <div id="topbar">
+        <div id="day">Day: saturday</div>
+        <div id="date">Date: April 11, 2026</div>
+      </div>
+
+      <div id="weather-main">
+        <img id="icon" src="https://openweathermap.org/img/wn/01d@2x.png" alt="weather icon" />
+        <div id="temperature">36°C</div>
+        <div id="city">Dudley</div>
+        <div id="weathercondition">Hot</div>
+        <div id="mainweather">Sunny</div>
+      </div>
+
+      <div id="details">
+        <div class="detail-box">
+          <div class="icon">🌡️</div>
+          <p>Pressure</p>
+        </div>
+        <div class="detail-box">
+          <div class="icon">💧</div>
+          <p>Humidity</p>
+        </div>
+        <div class="detail-box">
+          <div class="icon">💨</div>
+          <p>Windspeed</p>
+        </div>
+        <div class="detail-box">
+          <div class="icon">🧭</div>
+          <p>Direction</p>
+        </div>
+      </div>      
+    </main>
+
+    <footer>
+      <p>Copyright © Deep Maharjan</p>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
